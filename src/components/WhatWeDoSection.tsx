@@ -84,7 +84,7 @@ const items = [
 ];
 
 const WhatWeDoSection = () => (
-  <section className="section-padding bg-background">
+  <section className="py-12 md:py-16 bg-background">
     <div className="section-container px-4 md:px-8">
 
       {/* Header */}
@@ -92,12 +92,20 @@ const WhatWeDoSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mb-12 md:mb-16"
+        className="text-center mb-8 md:mb-12"
       >
-        <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+        {/* <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
           What We Do
         </span>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+          Deploying Capital Into{" "}
+          <span className="text-gold">High-Yield</span> Opportunities
+        </h2> */}
+
+        <span className="text-gold  text-3xl font-bold tracking-widest uppercase">
+          What We Do
+        </span>
+        <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
           Deploying Capital Into{" "}
           <span className="text-gold">High-Yield</span> Opportunities
         </h2>
@@ -138,7 +146,7 @@ const WhatWeDoSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mt-12"
+        className="text-center mt-8 md:mt-10"
       >
         <p className="text-muted-foreground mb-4 text-sm md:text-base">
           Ready to put your capital to work in high-yield opportunities?

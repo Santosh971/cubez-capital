@@ -113,7 +113,6 @@
 //   </section>
 // );
 
-// export default WhyChooseSection;
 import { motion } from "framer-motion";
 import { Award, Users, Briefcase, ShieldCheck, Clock, BarChart3, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -128,7 +127,7 @@ const reasons = [
 ];
 
 const WhyChooseSection = () => (
-  <section id="why-us" className="section-padding bg-background">
+  <section id="why-us" className="py-3 md:py-5 bg-background">
     <div className="section-container">
 
       {/* Header */}
@@ -136,12 +135,20 @@ const WhyChooseSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mb-12 md:mb-16 px-4"
+        className="text-center mb-6 md:mb-10 px-4"
       >
-        <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+        {/* <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
           Why Cubez Capital
         </span>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+          Trusted by Investors Who Demand{" "}
+          <span className="text-gold">More</span>
+        </h2> */}
+
+        <span className="text-gold text-3xl font-bold tracking-widest uppercase">
+          Why Cubez Capital
+        </span>
+        <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
           Trusted by Investors Who Demand{" "}
           <span className="text-gold">More</span>
         </h2>
@@ -152,7 +159,7 @@ const WhyChooseSection = () => (
       </motion.div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 px-4 md:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 px-4 md:px-0">
         {reasons.map((r, i) => (
           <motion.div
             key={i}
@@ -180,7 +187,7 @@ const WhyChooseSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mt-12"
+        className="text-center mt-6 md:mt-10"
       >
         <p className="text-muted-foreground mb-4 text-sm md:text-base">
           Join investors who trust Cubez Capital to grow and protect their wealth.

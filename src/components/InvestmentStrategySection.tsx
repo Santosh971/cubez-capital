@@ -139,7 +139,7 @@ const steps = [
 ];
 
 const InvestmentStrategySection = () => (
-  <section id="strategy" className="section-padding bg-secondary">
+  <section id="strategy" className="py-12 md:py-16 bg-secondary">
     <div className="section-container">
 
       {/* Header */}
@@ -147,12 +147,12 @@ const InvestmentStrategySection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mb-12 md:mb-16 px-4"
+        className="text-center mb-8 md:mb-12 px-4"
       >
-        <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+        <span className="text-gold text-3xl font-bold tracking-widest uppercase">
           Investment Strategy
         </span>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
           A Disciplined Approach to{" "}
           <span className="text-gold">Wealth Creation</span>
         </h2>
@@ -185,7 +185,7 @@ const InvestmentStrategySection = () => (
 
             {/* Text */}
             <h3 className="text-lg md:text-xl font-bold mb-2 text-foreground">{step.title}</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">{step.desc}</p>
+            <p className="text-muted-foreground text-sm leading-relaxed text-left">{step.desc}</p>
           </motion.div>
         ))}
       </div>
@@ -195,7 +195,7 @@ const InvestmentStrategySection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mt-12"
+        className="text-center mt-8 md:mt-10"
       >
         <p className="text-muted-foreground mb-4 text-sm md:text-base">
           Interested in how we put your capital to work?

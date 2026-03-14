@@ -137,7 +137,7 @@ const HeroSection = () => {
       {/* Subtle left vignette */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#293e63]/50 via-transparent to-transparent" />
 
-      <div className="section-container section-padding relative z-10 pt-32 pb-20">
+      <div className="section-container py-12 md:py-16 relative z-10 pt-32 pb-20">
         <div className="max-w-6xl mx-auto text-center">
 
           <motion.div
@@ -166,7 +166,7 @@ const HeroSection = () => {
               and high-yield opportunities — delivering stable, predictable returns backed by tangible assets.
             </p> */}
 
-            <p className="text-base md:text-lg text-white/80 mb-10 max-w-4xl mx-auto leading-relaxed px-4">
+            <p className="text-base md:text-lg text-white/80 mb-10 max-w-4xl mx-auto text-justify leading-relaxed px-4">
               Cubez Capital provides accredited investors access to institutional-grade real estate
               and high-yield opportunities — delivering stable, predictable returns backed by tangible assets.
             </p>

@@ -126,10 +126,17 @@ const WhyChooseSection = () => (
         viewport={{ once: true }}
         className="text-center mb-12 md:mb-16 px-4"
       >
-        <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+        {/* <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
           Why Cubez Capital
         </span>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+          Trusted by Investors Who Demand{" "}
+          <span className="text-gold">More</span>
+        </h2> */}
+        <span className="text-gold text-3xl font-bold tracking-widest uppercase">
+          Why Cubez Capital
+        </span>
+        <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
           Trusted by Investors Who Demand{" "}
           <span className="text-gold">More</span>
         </h2>

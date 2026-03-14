@@ -69,7 +69,7 @@ const steps = [
 ];
 
 const HowItWorksSection = () => (
-  <section id="how-it-works" className="section-padding bg-secondary">
+  <section id="how-it-works" className="py-12 md:py-16 bg-secondary">
     <div className="section-container px-4 md:px-8">
 
       {/* Header */}
@@ -77,12 +77,12 @@ const HowItWorksSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mb-12 md:mb-16"
+        className="text-center mb-8 md:mb-12"
       >
-        <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+        <span className="text-gold text-3xl font-bold tracking-widest uppercase">
           How It Works
         </span>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
           Start Investing in{" "}
           <span className="text-gold">Four Simple Steps</span>
         </h2>
@@ -123,7 +123,7 @@ const HowItWorksSection = () => (
               <h3 className="text-base md:text-lg font-bold mb-2 text-foreground">
                 {step.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-sm leading-relaxed text-left">
                 {step.desc}
               </p>
 
@@ -141,7 +141,7 @@ const HowItWorksSection = () => (
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center mt-12"
+        className="text-center mt-8 md:mt-10"
       >
         <p className="text-muted-foreground mb-4 text-sm md:text-base">
           Ready to begin your investment journey with Cubez Capital?

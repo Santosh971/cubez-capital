@@ -33,16 +33,22 @@ const FAQSection = () => {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="section-padding bg-secondary">
+    <section id="faq" className="py-12 md:py-16 bg-secondary">
       <div className="section-container max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-8 md:mb-12"
         >
-          <span className="text-gold font-medium text-sm tracking-widest uppercase">FAQ</span>
+          {/* <span className="text-gold font-medium text-sm tracking-widest uppercase">FAQ</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-3 mb-4">
+            Frequently Asked <span className="text-gold">Questions</span>
+          </h2> */}
+          <span className="text-gold text-3xl font-bold tracking-widest uppercase">
+            FAQ
+          </span>
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
             Frequently Asked <span className="text-gold">Questions</span>
           </h2>
         </motion.div>

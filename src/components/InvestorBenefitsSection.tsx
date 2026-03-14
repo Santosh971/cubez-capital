@@ -128,7 +128,7 @@ const benefits = [
 ];
 
 const InvestorBenefitsSection = () => (
-  <section id="benefits" className="section-padding bg-background">
+  <section id="benefits" className="py-12 md:py-16 bg-background">
     <div className="section-container px-4 md:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
@@ -138,10 +138,10 @@ const InvestorBenefitsSection = () => (
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <span className="text-gold font-medium text-xs md:text-sm tracking-widest uppercase">
+          <span className="text-gold text-3xl font-bold tracking-widest uppercase">
             Investor Benefits
           </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 mb-4 leading-tight">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium mt-2 mb-3 leading-tight">
             Why Smart Investors Choose{" "}
             <span className="text-gold">Cubez Capital</span>
           </h2>
