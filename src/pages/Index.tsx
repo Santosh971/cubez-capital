@@ -24,7 +24,7 @@ const Index = () => {
       <InvestmentStrategySection />
       <InvestorBenefitsSection />
       <HowItWorksSection />
-      {/* <WhyChooseSection /> */}
+      <WhyChooseSection />
       <TestimonialSection />
       <RiskManagementSection />
       <OpportunitySection />

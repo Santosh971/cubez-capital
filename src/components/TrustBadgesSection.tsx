@@ -1,36 +1,4 @@
-// import { motion } from "framer-motion";
-// import { Shield, Award, FileCheck, Lock } from "lucide-react";
 
-// const badges = [
-//   { icon: Shield, label: "Asset-Backed Security" },
-//   { icon: Award, label: "Canadian Incorporated" },
-//   { icon: FileCheck, label: "Regulatory Compliant" },
-//   { icon: Lock, label: "Investor Capital Protected" },
-// ];
-
-// const TrustBadgesSection = () => (
-//   <section className="py-12 bg-secondary border-y border-border">
-//     <div className="section-container px-4">
-//       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-//         {badges.map((badge, i) => (
-//           <motion.div
-//             key={i}
-//             initial={{ opacity: 0, y: 10 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             viewport={{ once: true }}
-//             transition={{ delay: i * 0.1 }}
-//             className="flex flex-col items-center gap-2 text-center"
-//           >
-//             <badge.icon className="h-8 w-8 text-gold" />
-//             <span className="text-sm font-semibold text-foreground">{badge.label}</span>
-//           </motion.div>
-//         ))}
-//       </div>
-//     </div>
-//   </section>
-// );
-
-// export default TrustBadgesSection;
 
 
 import { motion } from "framer-motion";
